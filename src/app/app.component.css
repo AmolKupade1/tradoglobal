@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  margin-left: 25px;
+  width: 290px;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(244, 244, 244, 0.99);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
+nav ul{
+  position: relative;
+  list-style-type: none;
+}
+nav ul li a{
+  display: flex;
+  color: black;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 4px 5px;
+  height: 36.4px;
+  transition: .5s ease;
+}
+nav ul li a:hover{
+  background: rgba(0, 0, 0, 0.318);
+  color: #060101;
+}
+nav ul ul{
+  position: absolute;
+  left: 190px;
+  width: 100px;
+  top: 0;
+  display: none;
+  background: rgba(103, 7, 120, 0.4);
+  box-shadow: 2px 2px 10px rgba(0,0,0,.1);
+}
+nav ul span{
+  position: absolute;
+  right: 20px;
+  font-size: 1.4em;
+}
+nav ul .drop{
+  position: relative;
+}
+nav ul .drop1{
+  position: relative;
+}
+nav ul .drop:hover ul{
+display: inherit;
+}
+nav ul .drop1:click ul{
+display: inherit;
+}
+.count{
+  display: flex;
+}
+.menu{
+  margin-right: 45px;
+}
+.menu a{
+  float: right;
+  color: black;
+  text-decoration: none;
+  margin-right: 18px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 7px;
+ }
+ .menu a:hover{
+  color: rgb(8, 105, 144);
+  font-weight: 500;
+ }
+ .align1{
+  margin-right: 40px;
+  margin-bottom: 45px;
+ }
+.hello a{
+  cursor: pointer;
+}
+.hello p{
+  cursor: pointer;
+}
