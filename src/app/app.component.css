@@ -25,7 +25,7 @@ nav ul li a{
   font-size: 1em;
   text-decoration: none;
   padding: 4px 5px;
-  height: 36.4px;
+  height: 39.6px;
   transition: .5s ease;
 }
 nav ul li a:hover{
@@ -73,12 +73,13 @@ display: inherit;
   cursor: pointer;
   margin-bottom: 7px;
  }
+
  .menu a:hover{
   color: rgb(8, 105, 144);
   font-weight: 500;
  }
  .align1{
-  margin-right: 40px;
+  margin-right: 61px;
   margin-bottom: 45px;
  }
 .hello a{
